@@ -368,6 +368,24 @@ body > section:nth-of-type(even) {
     color: #000;
 }
 
+@media (min-width: 769px) and (max-width: 1320px) {
+    .hero__title {
+        font-size: clamp(2.75rem, 6vw, 4.5rem);
+    }
+
+    .hero__name {
+        font-size: 1.5rem;
+    }
+
+    .hero__label {
+        font-size: 1rem;
+    }
+
+    .hero__accent {
+        margin: 1.75rem 0;
+    }
+}
+
 @media (max-width: 768px) {
     body > header.hero {
         padding-right: var(--page-gutter) !important;
